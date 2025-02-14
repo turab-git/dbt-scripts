@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: src
+    description: "This source contains source transactional data"
+    database: bi_stage_db
+    schema: bi_stage_sc
+    tables:
+      - name: patients
